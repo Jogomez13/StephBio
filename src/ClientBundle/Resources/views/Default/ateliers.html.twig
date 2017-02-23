@@ -1,0 +1,15 @@
+{% extends 'ClientBundle:Default:index.html.twig' %}
+
+  {% block body %}
+            
+{% for ateliers in ateliers %} 
+
+    {{ ateliers.titre }}
+    {{ ateliers.image }}
+    {{ ateliers.description }}
+    
+    {% endfor %}
+
+
+
+        {% endblock %}
