@@ -10,7 +10,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;use Symfony\Component
 /**
  * Prestation controller.
  *
- * @Route("prestation")
+ * @Route("admin/prestation")
  */
 class PrestationController extends Controller
 {

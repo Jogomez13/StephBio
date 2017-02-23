@@ -12,7 +12,7 @@ use Symfony\Component\HttpFoundation\Request;
 /**
  * Atelier controller.
  *
- * @Route("ateliers")
+ * @Route("admin/ateliers")
  */
 class AteliersController extends Controller
 {
